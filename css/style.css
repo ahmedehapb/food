@@ -1,0 +1,519 @@
+.header{
+    height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, .6) , rgba(0, 0, 0, .6)) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: auto;
+    display: grid;
+}
+.container{
+    width: 80% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.special-heading h1{
+    padding: 20px;
+    text-align: center;
+    color: #555555;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-family: Source Sans Pro;
+    font-weight: normal;
+    margin: 0;
+}
+.special-heading hr{
+    width: 200px;
+    text-align: center;
+    background-color: #e67e22;
+    height: 2px;
+    margin-top: -20px ;
+}
+.nav{
+    margin-top: 10px;
+    width: 80% ;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 100px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;    
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li{
+    list-style: none;
+    margin-right: 17px;
+    
+}
+.nav-bar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Source Sans Pro;
+    font-size: 20px;  
+}
+.nav-bar ul li a:hover{
+    color: #e67e22;
+    font-size: 25px;
+    
+}
+
+
+.header h1{
+    color: #ffffff;
+    font-family: Source Sans Pro;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 50px;
+
+}
+.button button{
+    background-color: #e67d2200;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 30px;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    cursor: default;
+}
+.button button:hover{
+    background-color: #e67e22;
+    color: black;
+}
+#feature{
+    margin-top: 20px;
+}
+#feature .container p{
+    font-family: Source Sans Pro;
+    color: #555555;
+    text-align: center;
+    font-size: 25px;
+}
+#feature .container .boxs{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+}
+#feature .container .boxs .box i{
+    color: #e67e22;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+#feature .container .boxs .box h3{
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    color: #555555;
+
+}
+#feature .container .boxs .box p{
+    font-family: Source Sans Pro;
+    line-height: 150%;
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+}
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 0;
+    background-color: black;
+}
+#meals img{
+    width: 100%;
+    opacity: 0.6;
+}
+#mobile{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+#mobile .container .mobile-phone{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   padding: 20px;
+}
+#mobile .container .mobile-phone .image{
+    display: grid;
+    align-items: center;
+    justify-content: flex-end;
+}
+#mobile .container .mobile-phone .image img{
+    width: 280px;
+}
+#mobile .container .mobile-phone .text{
+    margin: 25px;
+    align-items: stretch;
+    display: grid;
+    justify-content: center;
+}
+#mobile .container .mobile-phone .text p{
+    font-size: 25px;
+    font-family: Source Sans Pro;
+    color: #555555;
+    margin: 30px;
+}
+#mobile .container .mobile-phone .text .download-app{
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+
+}
+#mobile .container .mobile-phone .text .download-app img{
+    height: 50px;
+}
+.container #cities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+#cities .city {
+    font-family: Source Sans Pro;
+    color: #555555;
+
+}
+#cities .city img{
+    width: 100%;
+}
+#cities .city i{
+    color: #e67e22;
+    font-size: 20px;
+}
+#prices{
+   background-color: #f4f4f4;
+}
+#prices .container{
+    font-family: Source Sans Pro;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 30px;
+    padding-bottom: 30px;
+    
+}
+#prices .container .card{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+
+}
+#prices .container .card h3{
+    font-size: 30px;
+    margin: 10px;
+}
+#prices .container .card h1{
+    color: #e67e22;
+    font-size: 70px;
+    margin: 10px;
+}
+#prices .container .card span{
+    font-size: 15px;
+    color: #e67e22;
+}
+#location{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 10px;
+}
+#location .contact{
+    display: grid;
+    justify-content: center;
+}
+#location .contact form table {
+    font-family: Source Sans Pro;
+    color: #555555;
+}
+input[type=text],input[type=email],select,textarea {
+    border: #e67e22 2px solid;
+    border-radius: 10px;
+    width:300px;
+    margin: 10px;
+}
+.contact .special-heading h1{
+    font-size: 45px;
+}
+.contact .special-heading hr {
+    width: 120px;
+    height: 2px;
+}
+.contact button{
+    font-family: Source Sans Pro;
+    background-color: #e67e22;
+    padding: 10px;
+    width: 100px;
+    border-radius:30% ;
+    margin: 20px;
+}
+#footer{
+    background-color: #333333;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer p{
+    font-family: Source Sans Pro;
+    color: #88887d;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px){
+    .nav{
+        margin-top: 10px;
+        width: 97% ;
+        height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .nav-bar{
+        display: flex;
+        align-items: center;    
+    }
+    .nav-bar ul{
+        display: flex;
+    }
+    .nav-bar ul li{
+        list-style: none;
+        margin-right: 10px;
+        
+    }
+    .nav-bar ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-family: Source Sans Pro;
+        font-size: 10px;  
+    }
+    .nav-bar ul li a:hover{
+        color: #e67e22;
+        font-size: 15px;
+    }
+    .header h1{
+        color: #ffffff;
+        font-family: Source Sans Pro;
+        font-weight: 100;
+        letter-spacing: 5px;
+        font-size: 20px;
+    
+    }
+    .button button{
+        background-color: #e67d2200;
+        color: #ffffff;
+        border-radius: 50%;
+        padding: 10px;
+        font-family: Source Sans Pro;
+        font-size: 10px;
+        cursor: default;
+    }
+    .special-heading h1{
+        text-align: center;
+        color: #555555;
+        letter-spacing: 1px;
+        font-family: Source Sans Pro;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .special-heading hr{
+        width: 70px;
+        text-align: center;
+        background-color: #e67e22;
+        height: 2px;
+        margin-top: -20px ;
+    }
+    #feature .container p{
+        font-family: Source Sans Pro;
+        color: #555555;
+        text-align: center;
+        font-size: 16px;
+    }
+    #feature{
+        margin-top: 20px;
+    }
+    #feature .container p{
+        font-family: Source Sans Pro;
+        color: #555555;
+        text-align: center;
+        font-size: 15px;
+    }
+    #feature .container .boxs{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    #feature .container .boxs .box{
+        margin-top: 20px;
+    }
+    #feature .container .boxs .box i{
+        color: #e67e22;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    #feature .container .boxs .box h3{
+        font-family: Source Sans Pro;
+        font-size: 20px;
+        color: #555555;
+        margin: 3px;
+    }
+    #feature .container .boxs .box p{
+        font-family: Source Sans Pro;
+        line-height: 100%;
+        font-size: 10px;
+        margin: 0;
+        text-align: left;
+    }
+    
+    #mobile .container .mobile-phone{
+        display: flex;
+       align-items: center;
+       flex-direction: column;
+    }
+    #mobile .container .mobile-phone .image{
+        display: grid;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    #mobile .container .mobile-phone .image img{
+        width: 200px;
+    }
+    #mobile .container .mobile-phone .text{
+        margin: 25px;
+        align-items: stretch;
+        display: grid;
+        justify-content: center;
+    }
+    #mobile .container .mobile-phone .text p{
+        font-size: 19px;
+        font-family: Source Sans Pro;
+        color: #555555;
+        margin: 15px;
+    }
+    #mobile .container .mobile-phone .text .download-app{
+        display: flex;
+        justify-content: space-around;
+        align-self: flex-end;
+    
+    }
+    #mobile .container .mobile-phone .text .download-app img{
+        height: 30px;
+    }
+    .container #cities {
+       display: flex;
+       flex-direction: column;
+       
+    }
+    #cities .city {
+        font-family: Source Sans Pro;
+        color: #555555;
+        margin-top: 25px ;
+    
+    }
+    #cities .city img{
+        width: 100%;
+    }
+    #cities .city i{
+        color: #e67e22;
+        font-size: 18px;
+    }
+    #cities .city .city-info{
+        font-size: 12px;
+    }
+    #cities .city h3{
+        margin: 3px;
+        font-size: 15px;
+    }
+     #prices .container{
+         font-family: Source Sans Pro;
+         display: flex;
+        flex-direction: column;
+         padding-bottom: 30px;
+     }
+     #prices{
+          padding: 20px;
+     }
+     #prices .container .card{
+         background-color: white;
+         display: grid;
+         justify-content: center;
+        
+        
+     }
+     #prices .container .card h3{
+         font-size: 20px;
+         margin: 10px;
+     }
+     #prices .container .card h1{
+         color: #e67e22;
+         font-size: 50px;
+         margin: 10px;
+     }
+     #prices .container .card span{
+         font-size: 10px;
+         color: #e67e22;
+     }
+     #prices .container .card p{
+         font-size: 15px;
+     }
+     #location{
+        display: flex;
+        flex-direction: column;
+        padding-top:20px ;
+        padding-bottom:20px ;
+    }
+    #location .contact{
+        display: grid;
+        justify-content: center;
+    }
+    #location .contact form table {
+        font-family: Source Sans Pro;
+        color: #555555;
+    }
+    input[type=text],input[type=email],select,textarea {
+        border: #e67e22 2px solid;
+        border-radius: 10px;
+        width:150px;
+        margin: 5px;
+    }
+    .contact .special-heading h1{
+        font-size: 30px;
+    }
+    .contact .special-heading hr {
+        width: 120px;
+        height: 2px;
+    }
+    .contact button{
+        font-family: Source Sans Pro;
+        background-color: #e67e22;
+        padding: 10px;
+        width: 100px;
+        border-radius:30% ;
+        margin: 20px;
+    }
+    
+}
